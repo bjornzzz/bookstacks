@@ -1,0 +1,20 @@
+.small-btn {
+    text-decoration: none;
+    color:#F25C54;
+}
+
+.loader{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    border-top-color: #FF5E5B;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

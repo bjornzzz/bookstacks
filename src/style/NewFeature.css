@@ -1,0 +1,16 @@
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: #F25C54;
+  }
+  
+  .feature-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    cursor: default;
+  }
+  

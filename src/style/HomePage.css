@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.home-page-nav{
+  padding-top: 1%;
+}
+
+.Register{
+font-weight: 700;
+font-size: 18px;
+color: #191919;
+padding: 10px 30px;
+border: 1px solid #191919;
+background:#F25C54;
+border-radius: 5px;
+cursor: pointer;
+width: 225px;
+height: 50px;
+text-decoration: none;
+}
+
+.Register:hover{
+transition: 300ms;
+color: #ffffff;
+background:#f25c54c8;
+}
+
+.logo{
+  font-size: 32px;
+  color: #191919;
+}
+
+.color-effect{
+  color: #F25C54;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F25C54;
+}
+
+.slogan-container {
+  width: 727px;
+  padding-top: 200px;
+}
+.slogan {
+  font-size: 72px;
+  color: #191919;
+}
+
+.small-text {
+  font-size: 24px;
+  padding: 24px 0px;
+  font-weight: 200;
+}
+
+
