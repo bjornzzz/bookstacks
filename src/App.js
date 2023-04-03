@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
 import HomePage from './pages/HomePage';
 import Register from './pages/Register';
 import Login from "./pages/Login";
 import Books from "./pages/Books";
+import DetailedBook from "./pages/DetailedBook";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />}></Route>
         <Route path="/books" element={<Books />}></Route>
+        <Route path="/books/:id" element={<DetailedBook />}></Route>
       </Routes>
     </BrowserRouter>
   );
